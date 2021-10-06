@@ -2,7 +2,7 @@
 INPUT=example.yaml
 OUTPUT=example.png
 
-IMAGE_NAME=wireviz
+IMAGE_NAME=local/wireviz
 
 all: 
 	docker build -t ${IMAGE_NAME} .
